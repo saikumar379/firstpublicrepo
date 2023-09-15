@@ -1,0 +1,106 @@
+img{
+  width:300px ;
+  height:300px;
+  padding-right:3px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+#topnav{
+  font-family: 'Dancing Script', cursive;
+  background-color: #434F5B;
+  font-size: 20px;
+  text-transform: lowercase;
+  width: 415px;
+  margin: 0 auto;
+}
+#topnav ul{
+  padding: 20px 15px;
+  margin: 0px;
+  text-align: center;
+}
+#topnav ul li{
+  list-style-type: none;
+  display: inline;
+}
+#topnav ul li a{
+  color: #F2F2F2;
+  text-decoration: none;
+  margin: 0px 5px;
+  padding: 5px;
+}
+
+#topnav ul li a:hover{
+  border-bottom: 3px solid #F2F2F2;
+  transition: 50ms linear 0s;
+}
+.body h3{
+  text-align:center;
+}
+#pbody{
+  justify-content:center;
+  text-align:center;
+  
+}
+#participants{
+  text-align:center;
+}
+
+.main{
+  text-align: center;
+  border: 3px solid black;
+
+  background-color: white;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding: 5px;
+   box-shadow: 0px 0px 15px #434F5B;
+}
+#title{
+  text-align:center;
+}
+.fields{
+  border-style: none none solid none;
+  color:#73bec8;
+  &:focus{
+    outline:none;
+    border-color:#73bec8
+  }
+}
+.fform{
+  text-align:center;
+   &:focus-within{
+    transform:scale(1.1,1.1);
+  }
+}
+.form{
+  text-align:center;
+}
+label
+{text-align:left;
+  
+}
+#country{
+  color:#73bec8
+}
+.form-field{
+  text-align:center;
+}
+.google-map {
+     padding-bottom: 50%;
+  padding-right:50%;
+     text-align:center;
+}
+.google-map h2{
+  text-align:center;
+  padding-left:92%;
+}
+
+.google-map iframe {
+     height: 50%;
+     width: 50%;
+     position: absolute;
+  text-align:center;
+}
